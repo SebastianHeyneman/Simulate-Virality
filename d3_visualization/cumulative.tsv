@@ -1,4 +1,4 @@
-"week"	"investor_type_frmted"	"cumsum"	"date_start"
+"week"	"investor_type_frmted"	"cumsum"	"date_start" 
 1	"Marketing"	1	2009-01-01
 2	"Marketing"	6	2009-01-08
 3	"Marketing"	9	2009-01-15
