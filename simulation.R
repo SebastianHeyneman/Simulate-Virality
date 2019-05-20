@@ -335,4 +335,4 @@ cumulative <-
 
 write.table(customers, "d3_visualization/customers.tsv", sep = '\t', row.names = FALSE)
 write.table(stages, "d3_visualization/stages.tsv", sep = '\t', row.names = FALSE)
-write.table(cumulative, "d3_visualization/cumulative.tsv", sep = '\t', row.names = FALSE)
+write.table(cumulative, "d3_visualization/cumulative.tsv", sep = '\t', row.names = FALSE) 
