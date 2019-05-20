@@ -9,7 +9,7 @@ var f = document.querySelector("#header"),
     ka = h.innerHTML;
     (f.classList.toggle("collapsed", !0),
     h.innerHTML = "DISCOVER", f.scrollTop = 0)
-
+ 
 h.addEventListener("click", function() {
     h.innerHTML === ka ?
     (f.classList.toggle("collapsed", !0),
