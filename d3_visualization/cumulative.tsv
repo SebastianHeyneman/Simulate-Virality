@@ -1,0 +1,145 @@
+"week"	"investor_type_frmted"	"cumsum"	"date_start"
+1	"Marketing"	1	2009-01-01
+2	"Marketing"	6	2009-01-08
+3	"Marketing"	9	2009-01-15
+4	"Marketing"	13	2009-01-22
+5	"Marketing"	15	2009-01-29
+6	"Marketing"	18	2009-02-05
+7	"Marketing"	21	2009-02-12
+8	"Marketing"	24	2009-02-19
+9	"Marketing"	26	2009-02-26
+10	"Marketing"	28	2009-03-05
+11	"Marketing"	31	2009-03-12
+12	"Marketing"	34	2009-03-19
+13	"Marketing"	37	2009-03-26
+13	"Partner: Referral Partners"	5	2009-03-26
+14	"Marketing"	40	2009-04-02
+14	"Partner: Referral Partners"	10	2009-04-02
+15	"Marketing"	43	2009-04-09
+15	"Partner: Referral Partners"	15	2009-04-09
+16	"Marketing"	45	2009-04-16
+16	"Partner: Referral Partners"	20	2009-04-16
+17	"Marketing"	48	2009-04-23
+17	"Partner: Referral Partners"	25	2009-04-23
+18	"Marketing"	50	2009-04-30
+18	"Partner: Referral Partners"	30	2009-04-30
+19	"Marketing"	52	2009-05-07
+19	"Partner: Referral Partners"	35	2009-05-07
+20	"Marketing"	55	2009-05-14
+20	"Partner: Referral Partners"	40	2009-05-14
+21	"Marketing"	57	2009-05-21
+21	"Partner: Referral Partners"	45	2009-05-21
+22	"Marketing"	61	2009-05-28
+22	"Partner: Referral Partners"	50	2009-05-28
+23	"Marketing"	64	2009-06-04
+23	"Partner: Referral Partners"	55	2009-06-04
+24	"Marketing"	66	2009-06-11
+24	"Partner: Referral Partners"	60	2009-06-11
+25	"Marketing"	68	2009-06-18
+25	"Partner: Referral Partners"	65	2009-06-18
+26	"Marketing"	71	2009-06-25
+26	"Partner: Referral Partners"	70	2009-06-25
+27	"Marketing"	73	2009-07-02
+27	"Partner: Referral Partners"	75	2009-07-02
+28	"Marketing"	75	2009-07-09
+28	"Partner: Referral Partners"	80	2009-07-09
+29	"Marketing"	76	2009-07-16
+29	"Partner: Referral Partners"	85	2009-07-16
+30	"Marketing"	77	2009-07-23
+30	"Partner: Referral Partners"	90	2009-07-23
+31	"Marketing"	80	2009-07-30
+31	"Partner: Referral Partners"	95	2009-07-30
+32	"Marketing"	81	2009-08-06
+32	"Partner: Referral Partners"	100	2009-08-06
+33	"Marketing"	83	2009-08-13
+33	"Partner: Referral Partners"	105	2009-08-13
+34	"Marketing"	85	2009-08-20
+34	"Partner: Referral Partners"	110	2009-08-20
+35	"Marketing"	86	2009-08-27
+35	"Partner: Referral Partners"	115	2009-08-27
+36	"Marketing"	88	2009-09-03
+36	"Partner: Referral Partners"	120	2009-09-03
+37	"Marketing"	90	2009-09-10
+37	"Partner: Referral Partners"	125	2009-09-10
+38	"Marketing"	91	2009-09-17
+38	"Partner: Referral Partners"	130	2009-09-17
+39	"Marketing"	93	2009-09-24
+39	"Partner: Referral Partners"	135	2009-09-24
+40	"Marketing"	95	2009-10-01
+40	"Partner: Referral Partners"	140	2009-10-01
+41	"Marketing"	97	2009-10-08
+41	"Partner: Referral Partners"	145	2009-10-08
+42	"Marketing"	98	2009-10-15
+42	"Partner: Referral Partners"	150	2009-10-15
+43	"Marketing"	100	2009-10-22
+43	"Partner: Referral Partners"	155	2009-10-22
+44	"Marketing"	102	2009-10-29
+44	"Partner: Referral Partners"	160	2009-10-29
+45	"Marketing"	103	2009-11-05
+45	"Partner: Referral Partners"	165	2009-11-05
+46	"Marketing"	105	2009-11-12
+46	"Partner: Referral Partners"	170	2009-11-12
+47	"Marketing"	108	2009-11-19
+47	"Partner: Referral Partners"	175	2009-11-19
+48	"Marketing"	110	2009-11-26
+48	"Partner: Referral Partners"	180	2009-11-26
+49	"Marketing"	111	2009-12-03
+49	"Partner: Referral Partners"	185	2009-12-03
+50	"Marketing"	112	2009-12-10
+50	"Partner: Referral Partners"	190	2009-12-10
+51	"Marketing"	114	2009-12-17
+51	"Partner: Referral Partners"	195	2009-12-17
+52	"Marketing"	116	2009-12-24
+52	"Partner: Referral Partners"	200	2009-12-24
+53	"Marketing"	118	2009-12-31
+53	"Partner: Referral Partners"	205	2009-12-31
+54	"Marketing"	119	2010-01-07
+54	"Partner: Referral Partners"	210	2010-01-07
+55	"Marketing"	121	2010-01-14
+55	"Partner: Referral Partners"	215	2010-01-14
+56	"Marketing"	123	2010-01-21
+56	"Partner: Referral Partners"	220	2010-01-21
+57	"Marketing"	125	2010-01-28
+57	"Partner: Referral Partners"	225	2010-01-28
+58	"Marketing"	126	2010-02-04
+58	"Partner: Referral Partners"	229	2010-02-04
+59	"Marketing"	128	2010-02-11
+59	"Partner: Referral Partners"	233	2010-02-11
+60	"Marketing"	130	2010-02-18
+60	"Partner: Referral Partners"	238	2010-02-18
+61	"Marketing"	131	2010-02-25
+61	"Partner: Referral Partners"	243	2010-02-25
+62	"Marketing"	133	2010-03-04
+62	"Partner: Referral Partners"	248	2010-03-04
+63	"Marketing"	135	2010-03-11
+63	"Partner: Referral Partners"	253	2010-03-11
+64	"Marketing"	137	2010-03-18
+64	"Partner: Referral Partners"	258	2010-03-18
+65	"Marketing"	139	2010-03-25
+65	"Partner: Referral Partners"	263	2010-03-25
+66	"Marketing"	141	2010-04-01
+66	"Partner: Referral Partners"	266	2010-04-01
+67	"Marketing"	143	2010-04-08
+67	"Partner: Referral Partners"	270	2010-04-08
+68	"Marketing"	144	2010-04-15
+68	"Partner: Referral Partners"	274	2010-04-15
+69	"Marketing"	146	2010-04-22
+69	"Partner: Referral Partners"	279	2010-04-22
+70	"Marketing"	147	2010-04-29
+70	"Partner: Referral Partners"	284	2010-04-29
+71	"Marketing"	149	2010-05-06
+71	"Partner: Referral Partners"	288	2010-05-06
+72	"Marketing"	150	2010-05-13
+72	"Partner: Referral Partners"	292	2010-05-13
+73	"Marketing"	151	2010-05-20
+73	"Partner: Referral Partners"	296	2010-05-20
+74	"Marketing"	152	2010-05-27
+74	"Partner: Referral Partners"	301	2010-05-27
+75	"Marketing"	153	2010-06-03
+75	"Partner: Referral Partners"	305	2010-06-03
+76	"Marketing"	154	2010-06-10
+76	"Partner: Referral Partners"	309	2010-06-10
+77	"Marketing"	155	2010-06-17
+77	"Partner: Referral Partners"	313	2010-06-17
+78	"Marketing"	156	2010-06-24
+78	"Partner: Referral Partners"	317	2010-06-24

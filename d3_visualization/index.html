@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<head>
+<title>Growth Flywheel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<meta charset="utf-8">
+<style>
+
+#visual {
+	background-color: #f6f9fc;
+}
+
+h1 {
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1.2;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 1.3em;
+	font-weight: 500;
+	line-height: 0;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 30px;
+}
+
+p {
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.27778;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	margin: 0px 30px 20px 30px;
+}
+
+li {
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.27778;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	margin: 30px;
+}
+
+.line-chart{
+	font-family: Graphik Web,Helvetica,sans-serif;
+	color: #434f5c;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.27778;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	margin: 30px;
+	}
+
+.main {
+	float: left;
+	margin: 0 auto;
+}
+
+/* POPUP WITH DESCRIPTION */
+#header:not(.collapsed){
+	background: white;
+	overflow: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	}
+
+#header {
+	position: absolute;
+	left: 65%;
+	top: 1%;
+	z-index: 1;
+}
+
+#header h1 {
+  font-weight: normal;
+  margin-top: 80px;
+}
+
+#header.collapsed !important{
+	float: right;
+  height: 60px;
+  width: 300px;
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+#header.collapsed h1 {
+	display: inline;
+  margin: 20px 0 0 70px;
+  font-size: 15px;
+}
+#header.collapsed #dismiss {
+	/* starter position */
+	font-family: Graphik Web,Helvetica,sans-serif;
+	font-weight: 500;
+	padding: 15px 30px;
+	line-height: 4rem;
+	min-width: 300px;
+	max-width: 100%;
+	height: auto;
+	background: #02a1fe;
+	color: white;
+	display: inline;
+  font-size: 15px;
+  -moz-box-shadow: 0 0 5px rgba(0, 35, 35, 0);
+  -webkit-box-shadow: 0 0 5px rgba(0, 35, 35, 0);
+  box-shadow: 0 0 5px rgba(0, 35, 35, 0);
+  margin: 0;
+}
+
+#header.collapsed li {
+  display: none;
+}
+
+#header.collapsed ul {
+  display: none;
+}
+
+#header.collapsed p {
+  display: none;
+}
+
+#header.collapsed h3 {
+  display: none;
+}
+
+#dismiss {
+  left: 60px;
+  margin: 40px 0;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 100px;
+  height: 30px;
+  background: #002323;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0.5;
+  overflow: hidden;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  -moz-transition: opacity 0.15s ease-in-out;
+  -ms-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+}
+
+#dismiss:hover {
+  opacity: 1;
+}
+
+@media (max-width: 700px) {
+  #header {
+    width: 250px;
+    padding: 0 75px;
+  }
+  #dismiss {
+    left: 50%;
+    margin: 40px -40px;
+  }
+}
+
+#bubbles{
+	position: absolute;
+	top: 80px;
+	font-weight:400;
+}
+
+#customers{
+	position: absolute;
+	top: 800px;
+	font-weight:400;
+}
+
+#tracker{
+	position: absolute;
+	top: 80px;
+	left: 52%;
+	font-weight:400;
+}
+
+#timecount {
+	position: absolute;
+	top: 150px;
+	left: 60%;
+}
+
+.subtitle{
+	font-family: Graphik Web,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #434f5c;
+	fill-opacity: .8;
+}
+
+table {
+  border-collapse: collapse;
+	border: 1px solid #ddd;
+}
+
+th {
+  border-bottom: 2px solid #ddd;
+  padding: 8px;
+  font-weight: bold;
+}
+
+td {
+  padding: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.info_box{
+	font-family: lato, Helvetica,sans-serif;
+	font-size: 16px;
+	color: #434f5c;
+}
+
+
+#chart {
+  padding: 0px;
+}
+
+.xaxislabel {
+  font-size: 9px;
+}
+
+#channel{
+	position: absolute;
+	top: 450px;
+	left: 53%;
+}
+
+#performance{
+	position: absolute;
+	top: 250px;
+	left: 53%;
+}
+
+</style>
+<body>
+
+<section id="header" class ="collapsed">
+
+  <h3>About</h3>
+	<p>
+			Carta serves companies who manage their equity
+			and the stakeholders who own that equity. </p>
+
+			<p>As more startups use Carta,
+			more stakeholders gain exposure to the software and, as stakeholders become aware of
+			the platform's advantages, more stakeholders refer companies they have a stake in to use Carta.</p>
+
+			<p>This visualization seeks to give insight into that process, both in terms of the players
+			involved and the sheer power of exponential growth for Carta's marketplace acquisition.</p>
+
+	<h3>Assumptions</h3>
+
+			<p>For the sake of ease, I make a few simplifying assumptions.
+
+ 			<ul>
+				<li>
+			I focus on investors and accelerators as I hypothesize they are the largest drivers of referrals.
+   		Other groups, like serial entrepreneaurs, tax and legal firms and employees in the startup ecosystem are also valuable.
+		</li>
+				<li>
+			I simplify the process for adding referral partners. I assume that every time a company switches to Carta,
+			every investor with a stake in that company has an independent probability of becoming a partner. A further tuned
+			model may consider the proportion of their portfolio that already uses Carta.
+		</li>
+				<li>
+			I assume it takes time to work with a partner to add their clients to Carta. I assume that we are able to convert
+			25% of their portfolio each quarter and, if we have more than 75% of their existing portfolio, then we convert the rest of their investments to Carta.
+		</li>
+				<li>
+			I assume that investors fall into three groups: active adopters, passive adopters and never adopters.
+			Active adopters get it. They have a 50/50 chance of becoming a partner each time one of their portfolio companies switches to Carta. Passive
+			adopters are open to change, though more apprehensive with a 10% chance each time a portfolio company switches to Carta and,
+			never adopters, are curmedgeons with a 0% chance. The groups are split 20%, 60%, 20%, respectively.
+			</li>
+		</ul>
+		</p>
+
+	<h3>Source</h3>
+
+			<p>This simulation runs off the <a href = "https://data.crunchbase.com/docs/2013-snapshot"> Crunchbase database snapshot</a>, a replica of their database as of December 31, 2013.</p>
+
+
+  <div id="dismiss">OK</div>
+
+</section>
+<div id ="headline">
+<div id = "main">
+<h1 id="title"> <text> Growth Flywheel: How Carta Captures the Marketplace </text></h1>
+<h2 id="subtitle"> <text></text></h2>
+</div>
+</div>
+
+
+<div id="visual">
+		<h2 id="timecount"> <span class="cnt"></span></h2>
+		<div id="chart"></div>
+		<h3 id="channel">  Which channel offered the best performance?</h3>
+		<h3 id="performance"> Which channel brought the most customers?</h3>
+</div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+<script type="text/javascript">
+(function() {
+window.__insp = window.__insp || [];
+__insp.push(['wid', 39466076]);
+var ldinsp = function(){
+if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=39466076&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 0);
+})();
+</script>
